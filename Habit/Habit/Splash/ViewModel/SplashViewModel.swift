@@ -14,8 +14,14 @@ class SplashViewModel: ObservableObject {
     func onAppear() {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            self.uiState = .error("erro no servidor")
+            self.uiState = .goToSignInScreen
         }
     }
     
+}
+
+extension SplashViewModel {
+    func signInView() -> some View {
+        return SplashViewRouter.makeSignInView()
+    }
 }
