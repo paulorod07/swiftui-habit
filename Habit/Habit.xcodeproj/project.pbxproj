@@ -11,6 +11,7 @@
 		3A5864F126CCBC94009EB589 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5864F026CCBC94009EB589 /* SignInView.swift */; };
 		3A5864F326CCBCFE009EB589 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5864F226CCBCFE009EB589 /* SignInViewModel.swift */; };
 		3A5864F526CCBDA9009EB589 /* SplashViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5864F426CCBDA9009EB589 /* SplashViewRouter.swift */; };
+		3A8883C026CD5B5A00DB568F /* SignInUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8883BF26CD5B5A00DB568F /* SignInUIState.swift */; };
 		3A93CC0426CCA1C0001F42A8 /* HabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93CC0326CCA1C0001F42A8 /* HabitApp.swift */; };
 		3A93CC0826CCA1C0001F42A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A93CC0726CCA1C0001F42A8 /* Assets.xcassets */; };
 		3A93CC0B26CCA1C0001F42A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A93CC0A26CCA1C0001F42A8 /* Preview Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		3A5864F026CCBC94009EB589 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		3A5864F226CCBCFE009EB589 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		3A5864F426CCBDA9009EB589 /* SplashViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewRouter.swift; sourceTree = "<group>"; };
+		3A8883BF26CD5B5A00DB568F /* SignInUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUIState.swift; sourceTree = "<group>"; };
 		3A93CC0026CCA1C0001F42A8 /* Habit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A93CC0326CCA1C0001F42A8 /* HabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitApp.swift; sourceTree = "<group>"; };
 		3A93CC0726CCA1C0001F42A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		3A5864EE26CCBC4A009EB589 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A8883BF26CD5B5A00DB568F /* SignInUIState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				3A5864F326CCBCFE009EB589 /* SignInViewModel.swift in Sources */,
 				3ABC386D26CCA50000580409 /* SplashView.swift in Sources */,
 				3A5864EB26CCB53D009EB589 /* SplashViewModel.swift in Sources */,
+				3A8883C026CD5B5A00DB568F /* SignInUIState.swift in Sources */,
 				3A5864F526CCBDA9009EB589 /* SplashViewRouter.swift in Sources */,
 				3A5864F126CCBC94009EB589 /* SignInView.swift in Sources */,
 			);
