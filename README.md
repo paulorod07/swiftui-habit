@@ -1,2 +1,2 @@
 # swiftui-habit
-iOS App using SwiftUI
+iOS App using SwiftUI and MVVM architecture
